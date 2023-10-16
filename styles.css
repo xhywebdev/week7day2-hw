@@ -1,0 +1,534 @@
+/* Header */
+header {
+    width: 100%;
+    min-height: 400px;
+    padding-top: 3em;
+}
+
+#home header {
+    background: no-repeat lightgrey url(images/cliff_ocean.jpg);
+    background-size: 182%;
+    background-position: center;
+}
+
+#cliffs header {
+    background: no-repeat lightgrey url(images/forest_cliff.jpg);
+    background-size: 150%;
+    background-position: center;
+}
+
+#activities header {
+    background: no-repeat lightgrey url(images/runfly.jpg);
+    background-size: 120%;
+    background-position: center;
+}
+
+#contact header {
+    background: no-repeat lightgrey url(images/cliff_rock.jpg);
+    background-size: 176%;
+    background-position: center;
+}
+
+@media (min-width: 992px) {
+    #home header {
+        background-size: 100%;
+    }
+
+    #cliffs header {
+        background-size: 100%;
+    }
+
+    #activities header {
+        background-size: 100%;
+        background-position: center 80%;
+    }
+
+    #contact header {
+        background-size: 100%;
+    }
+}
+
+.main-header {
+    /* background-color: rgb(255, 255, 255, 0.8); */
+    background-color: rgb(0, 0, 0, 0.4);
+    width: 80%;
+    margin: 2em auto 0 auto;
+    min-height: 100px;
+    height: 100px;
+}
+
+@media (min-width: 992px) {
+    .main-header {
+        background-color: rgb(0, 0, 0, 0.4);
+        width: 775px;
+        margin: 2em auto 0 auto;
+        min-height: 100px;
+        height: 100px;
+    }
+}
+
+.main-header .logo img {
+    width: 100px;
+    height: 100px;
+    margin: 0 2em 0 0;
+    float: left;
+}
+
+/* Navigation */
+.main-menu {
+    margin-left: 227px;
+    font-weight: 400;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* background-color: red; */
+}
+
+@media (max-width: 992px) {
+    .main-menu ul {
+        /* background-color: white; */
+        background-color: rgb(0, 0, 0, 0.4);
+
+        width: 60%;
+        margin-top: 100px;
+        margin-left: 40%;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-menu ul {
+        background-color: rgb(0, 0, 0, 0.4);
+        /* background-color: white; */
+        width: 100%;
+        margin-top: 100px;
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 477px) {
+    .main-menu ul {
+        background-color: rgb(0, 0, 0, 0.4);
+        /* background-color: white; */
+        width: 100%;
+        margin-top: 100px;
+        margin-left: -20%;
+    }
+}
+
+.main-menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    /* float: left; */
+    padding-left: 40px;
+    padding-right: 40px;
+    border-left: 1px solid rgba(202, 204, 202, 0.6);
+    line-height: 100px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+@media (max-width: 992px) {
+    .main-menu ul li {
+        border: 1px solid rgba(202, 204, 202, 0.6);
+    }
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-menu ul li a:hover {
+    color: #9ed034;
+}
+
+.main-menu ul li.active {
+    background: #9ed034;
+    border: none;
+}
+
+.main-menu ul li.active a {
+    color: #fff;
+}
+
+.navbar-toggler {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+/* Main */
+main {
+    /* padding: 3em 6em 3em 5.5em; */
+    padding: 3em 4em 3em 4em;
+    margin: 2em 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h1 {
+    font-size: 2.5em;
+    padding-bottom: 0.5em;
+    color: #9ed034;
+}
+
+main h2 {
+    font-size: 1.7em;
+}
+
+/* Partners */
+section {
+    width: 100%;
+    background-color: #4288C3;
+}
+
+section #partners {
+    width: 100%;
+    padding: 2em 0 2em 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section #partners .partner {
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+section #partners .partner img {
+    margin-top: 25px;
+    width: 90px;
+    height: 90px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 155px;
+    padding-bottom: 1em;
+    background-color: #ecfab8;
+}
+
+footer #nondisclaimer .copy {
+    padding: 3.5em 3.5em 3.5em 13em;
+    float: left;
+    font-size: 0.9em;
+}
+
+footer #nondisclaimer .social {
+    padding: 2.5em;
+    margin-right: 9.25em;
+    float: right;
+}
+
+footer #disclaimer {
+    clear: both;
+}
+
+footer #disclaimer p {
+    font-size: 0.85em;
+    text-align: center;
+}
+
+footer #nondisclaimer .social .fa {
+    padding: 15px;
+    /* font-size: 15px; */
+    /* width: 30px; */
+    text-align: center;
+    text-decoration: none;
+    margin: 0 4px;
+    border-radius: 50%;
+}
+
+footer #nondisclaimer .social .fa:hover {
+    opacity: 0.7;
+}
+
+footer #nondisclaimer .social .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+footer #nondisclaimer .social .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+footer #nondisclaimer .social .fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+footer #nondisclaimer .copy {
+    padding: 3.5em 0em 3.5em 0em;
+    text-align: center;
+    float: none;
+    font-size: 0.9em;
+}
+
+footer #nondisclaimer .social {
+    padding: 2.5em 0;
+    margin: 0;
+    text-align: center;
+    float: none;
+}
+
+/* Cliffs */
+#cliff-pictures {
+    background-color: #125688;
+    width: 100%;
+    /* height: 600px; */
+    /* margin: 20px auto 0px auto; */
+    /* padding: 20px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap; */
+}
+
+#cliff-pictures div {
+    width: 380px;
+    height: 229px;
+    background-color: #852B1B;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+#cliff-pictures img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#cliff-pictures span {
+    display: block;
+    margin: 7px 0;
+}
+
+/* Cliff Grid  */
+.cliff-grid {
+    margin: 20px 0;
+    /* background-color: #BDE1FF; */
+}
+
+.cliff-card {
+    width: 400px;
+    height: 234px;
+    margin: 10px auto;
+    background-color: #852B1B;
+    color: white;
+}
+
+.cliff-card img {
+    width: 100%;
+}
+
+.cliff-card span {
+    display: block;
+    padding: 5px 0;
+}
+
+/* Activity table */
+table {
+    /* width: 900px; */
+    width: 90%;
+    max-width: 900px;
+    margin: 3em auto 0 auto;
+}
+
+caption {
+    background: #852B1B;
+    height: 40px;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    /* padding-top: 1em; */
+}
+
+thead {
+    background: #BDE1FF;
+    text-align: center;
+}
+
+tbody {
+    background: #EEFFE6;
+    text-align: center;
+}
+
+th,
+td {
+    width: 225px;
+    height: 75px;
+    vertical-align: middle;
+    border: solid 1px #852B1B;
+    color: black;
+}
+
+th:first-child {
+    width: 125px;
+    height: 50px;
+    background: #4977D1;
+    color: #fff;
+}
+
+td:first-child {
+    font-weight: bold;
+    background: #BDE1FF;
+}
+
+/* Activity dislay box */
+#activities main #displaySelected {
+    visibility: hidden;
+    margin: 0 auto;
+    width: 600px;
+    border: 2px solid #9ed034;
+    padding: 0.75em;
+}
+
+#activities main #displaySelected #result,
+#activities main #displaySelected #sendinfo {
+    display: inline-block;
+    margin: 0;
+}
+
+#activities main #result {
+    min-height: 50px;
+    width: 300px;
+    padding: 0;
+}
+
+#activities main #result h4 {
+    margin-bottom: 1em;
+    font-size: 1.15em;
+}
+
+#activities main #displaySelected #sendinfo input[type="email"] {
+    width: 200px;
+}
+
+
+/* Contact Info*/
+.phone span:first-of-type {
+    font-weight: bold;
+}
+
+.email span:first-of-type {
+    font-weight: bold;
+}
+
+.contactinfo {
+    padding: 1em 0;
+}
+
+.contactinfo div {
+    padding: 0.5em 0;
+}
+
+
+/* Contact Form */
+form {
+    border: 2px solid #9ed034;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+form legend {
+    color: #4977D1;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 500px;
+    max-width: 80%;
+    height: 30px;
+    margin: 10px 0;
+}
+
+form input[type="email"] {
+    width: 500px;
+    max-width: 80%;
+    height: 30px;
+}
+
+form .submit {
+    width: 500px;
+    max-width: 80%;
+    display: flex;
+    justify-content: end;
+}
+
+form button {
+    text-align: center;
+}
+
+.selectmenu label {
+    font-weight: bold;
+}
+
+.selectmenu select {
+    width: 500px;
+    max-width: 80%;
+    /* text-align: center; */
+}
+
+.radios label {
+    font-weight: bold;
+    display: block;
+}
+
+.commentbox label {
+    font-weight: bold;
+    display: block;
+}
+
+form textarea {
+    width: 500px;
+    max-width: 80%;
+    height: 200px;
+}
+
+.textbox input {
+    display: block;
+    margin-bottom: 0.8em;
+}
+
+.radios,
+.selectmenu,
+.commentbox {
+    margin-top: 1em;
+    /* margin-bottom: 1em; */
+}
+
+/* Random Code */
+.randomcode {
+    /* background-color: #125688; */
+    width: 500px;
+    max-width: 80%;
+    /* padding-left: 1.3em; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.randomcode input[type="text"] {
+    display: inline-block;
+    width: 50%;
+    margin-right: 10px;
+}
+
+.randomcode p {
+    display: flex;
+    align-items: center;
+    background-color: #cdcdcd;
+    height: 40px;
+    padding: 0px 10px;
+
+}
